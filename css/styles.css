@@ -121,10 +121,19 @@ img {
 #loopConfig .feature-content h4,
 #savings .feature-content h4,
 #challenge .feature-content h4,
-#provinceName{
+#provinceName,
+.subhead{
     font-size: 1.5em;
     font-weight: 400;
     color: #3db742;
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.subheadred{
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #c43a3a;
     display: inline-flex;
     vertical-align: middle;
 }
@@ -170,6 +179,10 @@ a {
 
 .material-icons {
     padding-right: 4px;
+}
+
+.material-icons, .icon-text {
+    vertical-align: middle;
 }
 
 /*FAQ Section*/

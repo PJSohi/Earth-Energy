@@ -37,13 +37,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Earth Energy</a>
+          <a class="navbar-brand" href="index.html">Earth Energy</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">Energy</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="technology.html">Technology</a></li>
             <li><a href="faq.html">FAQ</a></li>
             <li><a href="map.html">Dealers</a></li>
@@ -107,7 +107,7 @@
                         </div>
 
                         <div class="card-action">
-                            <a href="#" target="new_blank">Learn More</a>
+                            <a data-toggle="modal" data-target="#myModal">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -122,7 +122,7 @@
                         </div>
 
                         <div class="card-action">
-                            <a href="#" target="new_blank">Learn More</a>
+                            <a data-toggle="modal" data-target="#myModal2">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -137,7 +137,7 @@
                         </div>
 
                         <div class="card-action">
-                            <a href="#" target="new_blank">Learn More</a>
+                            <a data-toggle="modal" data-target="#myModal3">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -152,13 +152,156 @@
                         </div>
 
                         <div class="card-action">
-                            <a href="#" target="new_blank">Learn More</a>
+                            <a data-toggle="modal" data-target="#myModal4">Learn More</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title subhead" id="myModalLabel">OPEN-WATER OR OPEN-WELL</h4>
+          </div>
+          <div class="modal-body">
+             <p>These systems take water from a well or a drilled well, direct the flow through the GSHP unit where the heat is extracted, and then return the cooled water to the lake or well, in accordance with environmental regulations.</p>
+             <p>If the source of water is a lake, the body of water must be large enough to provide a sufficient 'heat sink' capacity. Rivers can be used as a source of water, but sources with high levels of salt, chlorides or other minerals are not recommended for most units. Each province has regulations concerning the use of water from Crown lands, and there are federal laws concerning the position of GSHP loops in navigable waterways.</p>
+             <p>If the source of water is a well, most provinces have regulations concerning the extraction and re-injection of water to protect natural aquifers. In some jurisdictions, a licensed well driller must be used. Although a GSHP system only extracts heat from the water in winter, there is a difference of opinion over whether this change in temperature then classifies the discharge water as sewage.</p>
+             <br>
+             <div class="row">
+                 <div class="col-md-6">
+                 <h4 class="subhead"><i class="material-icons">done</i>Advantages</h4>
+                 <ul>
+                     <li>higher efficiency of heat transfer</li>
+                     <li>lower installed cost </li>
+                     <li>no need to use a chemical fluid for the heat transfer medium</li>
+                 </ul>
+                 </div>
+                 <div class="col-md-6">
+                 <h4 class="subheadred"><i class="material-icons">close</i>Disadvantages</h4>
+                 <ul>
+                     <li>environmental concerns with disruption of water tables and aquifers</li>
+                     <li>fluctuations in water temperature can affect system performance</li>
+                 </ul>
+                 </div>
+             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title subhead" id="myModalLabel">LAKE LOOPS OR POND LOOPS</h4>
+          </div>
+          <div class="modal-body">
+            <p>A closed loop system is positioned on the floor of a body of water, instead of buried in the ground. The pipe must be weighted properly to remain on the bottom of the lake and to avoid shifting caused by spring ice movement.</p>
+            <br>
+             <div class="row">
+                 <div class="col-md-6">
+                 <h4 class="subhead"><i class="material-icons">done</i>Advantages</h4>
+                 <ul>
+                     <li>usually less expensive to install than trenching into the ground</li>
+                     <li>relatively easy to diagnose leaks in the loop</li>
+                 </ul>
+                 </div>
+                 <div class="col-md-6">
+                 <h4 class="subhead"><i class="material-icons">close</i>Disadvantages</h4>
+                 <ul>
+                     <li>potential environmental damage to aquaculture</li>
+                     <li>water temperature fluctuation (especially in spring runoff) can affect system performance</li>
+                 </ul>
+                 </div>
+             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title subhead" id="myModalLabel">HORIZONTAL CLOSED LOOPS</h4>
+          </div>
+          <div class="modal-body">
+            <p>These are a common configuration in Canada. A trench is dug on the property, and pipe is buried in a continuous or parallel loop (depending on size of unit). The national installation standard (CSA C445) states that the loop must be located at least 600 mm (2 feet) below ground, but industry guidelines are at least twice that depth. It is possible to lay more than two pipes in each trench, thereby reducing the cost of digging. It is important to backfill the trench properly, to avoid air pockets that can reduce the transfer of heat, and to ensure that the pipe is not damaged by large rocks.</p>
+            <br>
+             <div class="row">
+                 <div class="col-md-6">
+                 <h4 class="subhead"><i class="material-icons">done</i>Advantages</h4>
+                 <ul>
+                     <li>relatively easy to install</li>
+                     <li>high flexibility of design</li>
+                     <li>greater control over entering fluid temperature</li>
+                 </ul>
+                 </div>
+                 <div class="col-md-6">
+                 <h4 class="subhead"><i class="material-icons">close</i>Disadvantages</h4>
+                 <ul>
+                     <li>cost of trenching can be high</li>
+                     <li>it is more difficult to find a leak in the loop</li>
+                     <li>landscaping may be required on retrofit installations</li>
+                 </ul>
+                 </div>
+             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title subhead" id="myModalLabel">VERTICAL CLOSED LOOPS</h4>
+          </div>
+          <div class="modal-body">
+            <p>These are the most expensive but the most efficient configuration, due to the fact that the under-earth level of heat increases and stabilizes with depth. This option is viable when surface property is limited or difficult terrain, but care must be taken to ensure that the vertical borehole is drilled according to provincial regulations.</p>
+            <br>
+             <div class="row">
+                 <div class="col-md-6">
+                 <h4 class="subhead"><i class="material-icons">done</i>Advantages</h4>
+                 <ul>
+                     <li>highest efficiency</li>
+                     <li>less property space is required</li>
+                     <li>most secure from accidental post-installation damage</li>
+                 </ul>
+                 </div>
+                 <div class="col-md-6">
+                 <h4 class="subhead"><i class="material-icons">close</i>Disadvantages</h4>
+                 <ul>
+                     <li>usually the highest-cost option</li>
+                     <li>potential environmental damage to aquifers if not installed properly</li>
+                 </ul>
+                 </div>
+             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
     
     <!--section 3-->
     <section id="savings">

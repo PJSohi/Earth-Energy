@@ -13,8 +13,10 @@
     <!-- Custom CSS-->
     <link href="css/styles.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="cssmap-canada/cssmap-canada.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/dataTables.bootstrap.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -62,38 +64,106 @@
     </div>
     
     <!--section 1-->
-    <section id="feature-one">
-      <div class="container">
-        <div class="row">
+    <section id="predata">
+        <div class="container">
             <div class="feature-content">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h6>Find out more info</h6>
-                    <h2>Select Your Region</h2>
-                    
-                    <!-- CSSMap - Canada -->
-                    <div id="map-canada">
-                     <ul class="canada">
-                      <li class="ca1"><a href="#alberta">Alberta</a></li>
-                      <li class="ca2"><a href="#british-columbia">British Columbia</a></li>
-                      <li class="ca3"><a href="manitoba.html">Manitoba</a></li>
-                      <li class="ca4"><a href="newbrunswick.html">New Brunswick</a></li>
-                      <li class="ca5"><a href="newfoundland.html">Newfoundland and Labrador</a></li>
-                      <li class="ca6"><a href="#northwest-territories">Northwest Territories</a></li>
-                      <li class="ca7"><a href="novascotia.html">Nova Scotia</a></li>
-                      <li class="ca8"><a href="#nunavut">Nunavut</a></li>
-                      <li class="ca9"><a href="ontario.html">Ontario</a></li>
-                      <li class="ca10"><a href="pie.html">Prince Edward Island</a></li>
-                      <li class="ca11"><a href="quebec.html">Quebec</a></li>
-                      <li class="ca12"><a href="saskatchewan.html">Saskatchewan</a></li>
-                      <li class="ca13"><a href="#yukon">Yukon</a></li>
-                     </ul>
-                    </div>
-                    <!-- END OF THE CSSMap - Canada -->
-                    
-                </div>            S
+                <h4 id="provinceName"><i class="material-icons">location_on</i>Nova Scotia</h4>
             </div>
-          </div>        
         </div>
+    </section>
+    <section id="data">
+        <div class="container">
+        <div class="feature-content">
+            <table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Contact</th>
+                <th>Street</th>
+                <th>City</th>
+                <th>Postal Code</th>
+                <th>Phone</th>
+                <th>Email</th>
+                <th>Type</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Name</th>
+                <th>Contact</th>
+                <th>Street</th>
+                <th>City</th>
+                <th>Postal Code</th>
+                <th>Phone</th>
+                <th>Email</th>
+                <th>Type</th>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>Springhill Earth Energy</td>
+                <td>Darlene Chute</td>
+                <td>Box 1000</td>
+                <td>Springhill</td>
+                <td>B0M 1X0</td>
+                <td>902-597-3105</td>
+                <td>darlene.chute@townofspringhill.ns.ca</td>
+                <td>Accredited</td>
+            </tr>
+            <tr>
+                <td>Tank Doctor Aquatic Systems Inc</td>
+                <td>Mike Caudle</td>
+                <td>209 Aerotech Drive, Unit 8</td>
+                <td>Enfield</td>
+                <td>B2T 1K3</td>
+                <td>902-873-3909</td>
+                <td>tankdoctor@msn.com</td>
+                <td>Accredited</td>
+            </tr>
+            <tr>
+                <td>Christopher Robar Contracting Limited</td>
+                <td>Christopher Robar</td>
+                <td>Box 33, RR#1 </td>
+                <td>Italy Cross</td>
+                <td>B0J 1V0</td>
+                <td>902-527-2815</td>
+                <td>cgrobar@bwr.eastlink.ca</td>
+                <td>Certified</td>
+            </tr> 
+            <tr>
+                <td>Hill Reclamation Ltd.</td>
+                <td>Mark McCormick</td>
+                <td>755 Rodney Rd</td>
+                <td>Springhill</td>
+                <td>B0M 1X0</td>
+                <td>902-649-0802</td>
+                <td>markandjulie@ns.sympatico.ca</td>
+                <td>Certified</td>
+            </tr> 
+            <tr>
+                <td>C & H P & H Ltd.</td>
+                <td>Waldon Carty</td>
+                <td>RR 2 Waterville</td>
+                <td>Kings County</td>
+                <td>B0P 1V0</td>
+                <td>902-538-8563</td>
+                <td>wldncrty@glin.com</td>
+                <td>Certified</td>
+            </tr> 
+            <tr>
+                <td>B. D. Stevens Ltd.</td>
+                <td>Thane Stevens</td>
+                <td>20 MacDonald Ave.</td>
+                <td>Dartmouth</td>
+                <td>B3B 1C5</td>
+                <td>902-468-8040</td>
+                <td>tls@stevensgroup.ca</td>
+                <td>Certified</td>
+            </tr> 
+        </tbody>
+    </table>
+    </div>
+    </div>
     </section>
     
     <footer>
@@ -116,20 +186,12 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/app.js"></script>
-    <script type="text/javascript" src="https://cssmapsplugin.com/5/jquery.cssmap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="js/dataTables.bootstrap.min.js"></script>
     <script type="text/javascript">
-    $(document).ready(function(){
-
-    // CSSMap;
-    $("#map-canada").CSSMap({
-      "size": 750,
-      "mapStyle": "custom",
-      "tooltips": "floating-top-center",
-      "responsive": "auto"
-    });
-    // END OF THE CSSMap;
-
-    });
+    $(document).ready(function() {
+        $('#example').DataTable();
+    } );
     </script>
   </body>
 </html>
